@@ -11,6 +11,9 @@
   <form action="censura.php" method="GET">
     <label for="paragraph">Scrivi un paragrafo</label>
     <input type="text" id="paragraph" name="paragraph">
+    <label for="censored">Scrivi la parola da censurare</label>
+    <input type="text" id="censored" name="censored">
+    <button type="submit">Invia</button>
   </form>
 </body>
 </html>
